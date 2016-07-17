@@ -13,9 +13,6 @@ from sklearn.neighbors import KNeighborsClassifier
 import time
 from datetime import timedelta
 import gc
-
-
-print "test6s"
 # Found at: https://www.kaggle.com/rshekhar2/facebook-v-predicting-check-ins/xgboost-cv-example-with-small-bug
 def mapkprecision(truthvalues, predictions):
     '''
